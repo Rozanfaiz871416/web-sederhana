@@ -1,0 +1,134 @@
+body {
+  background-image: url("./background 2.png");
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.satu {
+  display: flex;
+  list-style-type: none;
+  font-size: 25px;
+  font-style: initial;
+}
+.satu a {
+  text-decoration: none;
+  margin: 0 25px;
+}
+.satu a:hover {
+  color: rgb(253, 251, 251);
+  background-color: rgb(0, 0, 0);
+  box-sizing: content-box;
+  border-radius: 15%;
+  padding: 10px 5px 10px 5px;
+}
+
+.dua {
+  display: flex;
+  list-style-type: none;
+  font-size: 25px;
+  font-style: initial;
+}
+.dua a {
+  text-decoration: none;
+  margin: 0 25px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.dua a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  box-sizing: content-box;
+  border-radius: 15%;
+}
+
+.color {
+  color: orange;
+}
+
+.tiga {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  font-style: initial;
+  padding: 30px;
+  margin-left: 470px;
+}
+
+.tiga a {
+  text-decoration: none;
+  margin: 0 20px;
+  justify-content: center;
+  background-color: black;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+}
+
+.tiga a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  box-sizing: content-box;
+  border-radius: 15%;
+}
+
+.h1 {
+  text-align: center;
+  margin-left: -50px;
+}
+
+.container {
+  display: inline-block;
+}
+
+.text {
+  display: inline-block;
+}
+
+.div1 {
+  margin-left: 550px;
+  margin-top: 3rem;
+}
+
+.div1 img {
+  border-radius: 100px;
+}
+.div2 {
+  display: flex;
+  justify-content: space-between;
+}
+.div3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot {
+  display: flex;
+  list-style-type: none;
+  font-size: 25px;
+  font-style: initial;
+}
+.foot a {
+  text-decoration: none;
+  margin-left: 25px;
+}
+.img {
+  margin-left: 300px;
+}
+
+.img img {
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.footer {
+  background-color: grey;
+  border-radius: 50px;
+}
